@@ -1,7 +1,10 @@
-# OS generated files #
-######################
 .DS_Store
 .DS_Store?
 .classpath
 .project
 .settings
+Appium.log
+target
+test-output
+
+
