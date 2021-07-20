@@ -8,8 +8,8 @@
         
   <test thread-count="5" name="Test">
     <classes>
-  <!-- 	  <class name="Tests.ApiDemoApp_Gestures"/> 
-      <class name="Tests.GeneralStoreApp_Tests"/> -->
+   	  <class name="Tests.ApiDemoApp_Gestures"/> 
+    <!--  <class name="Tests.GeneralStoreApp_Tests"/> -->
       <class name="Tests.ApiDemoApp_SimpleTest"/>
     </classes>
   </test> <!-- Test -->
