@@ -36,8 +36,8 @@ public class AppiumSeverUtilities {
 	        environment.put("JAVA_HOME", "/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home");
 	        builder.withEnvironment(environment);
 	        
-			builder.withLogFile(new File(System.getProperty("user.dir") + "/Appium.log"));
-			//builder.withLogFile(new File("/Users/pradeep/Documents/New_Learning_Workspace/MobileAutomationFramework_Appium_RS/Appium.log"));
+			//builder.withLogFile(new File(System.getProperty("user.dir") + "/Appium.log"));
+			
 			
 			
 			

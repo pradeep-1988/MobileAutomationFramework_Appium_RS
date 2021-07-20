@@ -6,5 +6,7 @@
 Appium.log
 target
 test-output
+ExtentReports
+FailureScreenShots
 
 
