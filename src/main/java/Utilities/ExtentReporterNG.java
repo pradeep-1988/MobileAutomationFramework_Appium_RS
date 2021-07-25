@@ -28,7 +28,8 @@ public class ExtentReporterNG implements IReporter {
  
     public void generateReport(List<XmlSuite> xmlSuites, List<ISuite> suites, String outputDirectory) {
     	
-       htmlReporter = new ExtentSparkReporter(System.getProperty("user.dir")+"/ExtentReports/SparkReport.html");
+       //htmlReporter = new ExtentSparkReporter(System.getProperty("user.dir")+"/ExtentReports/SparkReport.html");
+       htmlReporter = new ExtentSparkReporter("/Users/pradeep/Documents/Jenkins_Report_directory/SparkReport.html");
        extent = new ExtentReports();
         
         extent.attachReporter(htmlReporter);
